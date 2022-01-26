@@ -2,7 +2,8 @@
 - - - 
 ## [Challenge 1](https://www.aluracursos.com/challenges/oracle-one/semana01y02-construye-un-encriptador-texto-con-javascript) - *Semanas 1 y 2* ##
 [Ir al Trello del Challenge](https://trello.com/b/WQTxVZWy)
-[Ir a la página Challenge](https://lestradez.github.io/ONE-Challenge1/)
+
+[Ir a la página del Challenge terminado](https://lestradez.github.io/ONE-Challenge1/)
 
 ---
 ## Descripción el Challenge
