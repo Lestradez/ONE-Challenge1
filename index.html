@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE-Challenge1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo">ONE - Challenge 1</h1>
+    <h3 class="subtitulo">Esta aplicación encripta textos <span>(Funciona con mayúsculas y minúsculas)</span></h3>
+    <p class="descripcion">Las "llaves" de encriptación que utilizaremos son las siguientes:</p>
+    <div class="consigna">
+    <p>La letra "a" es convertida para "ai"</p>
+    <p>La letra "e" es convertida para "enter"</p>
+    <p>La letra "i" es convertida para "imes"</p>
+    <p>La letra "o" es convertida para "ober"</p>
+    <p>La letra "u" es convertida para "ufat"</p>
+    </div>
+  </br>
+  </header>
+
+  <main class="main">
+    <section class="form box">
+      <div>
+        <label for="input-texto">Escriba aquí</label>
+        <textarea class="text-input" type="text" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+        <button class="btn" id="btn-encriptar" onclick="encriptar()">Encriptar!</button>
+        <button class="btn" id="btn-desencriptar" onclick="desEncriptar()">Desencriptar!</button>
+      </div>
+    </section>
+  
+    <section class="msg box">
+      <div>
+        <label for="msg" id="msg-label">Su mensaje</label>
+        <textarea class="text-input" type="text" id="msg"></textarea>
+        <button class="btn" id="btn-copiar" onclick = "copiar(msg)">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
